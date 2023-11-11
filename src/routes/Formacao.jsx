@@ -1,6 +1,6 @@
 import { } from 'react'
-import {} from 'react-router-dom'
-import { Button } from '../components/Button'
+import { } from 'react-router-dom'
+import SecondContent from '../components/SecondContent'
 
 
 function Formacao() {
@@ -8,9 +8,7 @@ function Formacao() {
 
   return (
     <>
-        <div>
-            <Button>Consultar</Button>
-        </div>
+      <SecondContent />
     </>
   )
 }

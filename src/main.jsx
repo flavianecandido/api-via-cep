@@ -9,6 +9,7 @@ import SobreMim from './routes/SobreMim.jsx';
 import Formacao from './routes/Formacao.jsx'
 import Experiencia from './routes/Experiencia.jsx'
 import Hobbies from './routes/Hobbies.jsx'
+import GlobalStyle from './css/GlobalStyle.jsx';
 
 
 const router = createBrowserRouter([
@@ -39,5 +40,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <GlobalStyle />
   </React.StrictMode>
 );

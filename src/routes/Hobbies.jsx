@@ -1,6 +1,6 @@
 import { } from 'react'
-import {} from 'react-router-dom'
-import { Button } from '../components/Button'
+import { } from 'react-router-dom'
+import FourthContent from '../components/FourthContent'
 
 
 function Hobbies() {
@@ -8,9 +8,7 @@ function Hobbies() {
 
   return (
     <>
-        <div>
-            <Button>Consultar</Button>
-        </div>
+      <FourthContent />
     </>
   )
 }

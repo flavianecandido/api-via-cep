@@ -8,8 +8,9 @@ export const FontFamilies = {
 };
 export const FontSizes = {
     ONE: '16px',
-    TWO: '24px',
-    THREE: '32PX',
+    TWO: '20PX',
+    THREE: '24px',
+    FOUR: '32PX',
 };
 export const FontWeights = {
     REGULAR: 400,
@@ -27,4 +28,5 @@ export const Spaces = {
     THREE: '18px',
     FOUR: '21px',
     FIVE:'31px',
+    SIX: '45Px',
 }

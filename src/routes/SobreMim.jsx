@@ -1,7 +1,6 @@
 import { } from 'react'
 import { } from 'react-router-dom'
-import { Button } from '../components/Button'
-import FotoPerfil from '../components/Image'
+import Conteudo from '../components/Conteudo'
 
 
 function SobreMim() {
@@ -9,8 +8,7 @@ function SobreMim() {
 
     return (
         <>
-            <FotoPerfil />
-            <Button>Consultar</Button>
+            <Conteudo />
         </>
     )
 }
