@@ -28,11 +28,13 @@ export const StyleNav = styled.header`
     }
     .menu {
         width: 100%;
-        height: 80px;
+        height: 110px;
         color: ${Colors.BLUE};
         background-color: ${Colors.BLACK};
         display: flex;
         align-items: center;
+        justify-content: space-around;    
+        
     }
     .logo-menu {
         font-size: ${FontSizes.FOUR};
