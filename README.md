@@ -1,8 +1,30 @@
-# React + Vite
+<h1 align="center"> API-Via-CEP </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias
 
-Currently, two official plugins are available:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML e CSS
+- ReactJS
+- Styled Components
+- API Via CEP
+
+## 💻 Projeto
+
+ Integramos ao nosso projeto a API via CEP. Esta API permite consultar Códigos de Endereçamento Postal (CEP) do Brasil.<br>
+ Você pode consultar a documentação através [DESSE LINK](https://viacep.com.br/)
+
+## 🛠️ Instalação das dependências
+
+- Após baixar o repositório em seu terminal digitar o comando  para instalar as dependências:
+
+```bash
+$ npm install 
+```
+- Depois de instaladas, digitar o comando:
+
+```bash
+$ npm run dev 
+```
+- O link do localhost será gerado, basta acessar.
+
