@@ -7,8 +7,8 @@ import {
 export const StyleContent = styled.header`
     .conteudo {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        // align-items: center;
+        // justify-content: center;
         margin: 100px;
         padding-left: 280px;
         width: 75%;
