@@ -1,25 +1,20 @@
-import { } from 'react'
-import styled from 'styled-components';
-import {
-    Colors,
-    FontFamilies,
-    FontSizes,
-    FontWeights,
-    BorderRadius,
-    Spaces,
-} from '../shared/DesignTokens';
+import styled, { css } from "styled-components";
 
 export const Button = styled.button`
+  ${({ theme }) => css`
     border: none;
-    font-family: ${FontFamilies.PRIMARY};
-    font-weight: ${FontWeights.SEMIBOLD};
+    font-weight: ${theme.font.weight[600]};
     width: 138px;
     height: 38px;
-    background-color: ${Colors.BLUE};
-    border-radius: ${BorderRadius.ONE};
-    color: ${Colors.BLACK};
-    padding: ${Spaces.ONE} ${Spaces.FIVE} ${Spaces.ONE} ${Spaces.FIVE};
-    font-size: ${FontSizes.ONE};
+    background-color: ${theme.colors.primary};
+    border-radius: ${theme.border.radius[4]};
+    color: ${theme.colors.background};
+    font-size: ${theme.font.size[9]};
     cursor: pointer;
-    text-decoration: none;
+    transition: opacity ${theme.transition.default};
+
+    &:hover {
+      opacity: 0.8;
+    }
+  `}
 `;
